@@ -7,7 +7,7 @@ let banner;
 
 function style() {
   banner = this.source.createBanner(this);
-  banner.actor.add_style_class_name('notification-transparency');
+  banner.actor.set_opacity(180);
   return banner;
 }
 
